@@ -16,7 +16,7 @@ Maybe other, but I haven't tested it in other shells.
 ## List of shame
 
 - Ack
-  + `$HOME/.ackrc` -> `$XDG_CONFIG_HOME/ack/config`
+  + `$HOME/.ackrc` -> `$XDG_CONFIG_HOME/ack/ackrc`
 - Atom
   + `$HOME/.atom` -> `$XDG_CONFIG_HOME/atom`
 - AWS CLI
@@ -69,7 +69,7 @@ Maybe other, but I haven't tested it in other shells.
 - Vagrant
   + `$HOME/.vagrant.d` -> `$XDG_DATA_HOME/vagrant`
 - WeeChat
-  + `$HOME/.weechat` -> `$XDG_CONNFIG_HOME/weechat`
+  + `$HOME/.weechat` -> `$XDG_CONFIG_HOME/weechat`
 
 † - it partially uses XDG specs, but fall back to default when XDG variables
 aren't present
