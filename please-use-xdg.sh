@@ -64,6 +64,7 @@
 [ -z "$XDG_CONFIG_HOME" ] && export XDG_CONFIG_HOME="$HOME/.config"
 [ -z "$XDG_DATA_DIRS"   ] && export XDG_DATA_DIRS="/usr/local/share:/usr/share"
 [ -z "$XDG_DATA_HOME"   ] && export XDG_DATA_HOME="$HOME/.local/share"
+[ -z "$XDG_STATE_HOME"   ] && export XDG_STATE_HOME="$HOME/.local/state"
 
 # Ack
 export ACKRC="$XDG_CONFIG_HOME/ack/ackrc"
@@ -97,13 +98,13 @@ export GNUPGHOME="$XDG_DATA_HOME/gnupg"
 
 # Less
 export LESSKEY="$XDG_CONFIG_HOME/less/lesskey" \
-  LESSHISTFILE="$XDG_DATA_HOME/less/history"
+  LESSHISTFILE="$XDG_STATE_HOME/less/history"
 
 # Mathematica
 export MATHEMATICA_USERBASE="$XDG_CONFIG_HOME/Mathematica"
 
 # Node.js
-export NODE_REPL_HISTORY="$XDG_DATA_HOME/node/repl_history"
+export NODE_REPL_HISTORY="$XDG_STATE_HOME/node/repl_history"
 
 # NotMuch
 export NOTMUCH_CONFIG="$XDG_CONFIG_HOME/notmuch/config"
@@ -116,7 +117,7 @@ export PARALLEL_HOME="$XDG_CONFIG_HOME/parallel"
 
 # PostgreSQL
 export PSQLRC="$XDG_CONFIG_HOME/postgres/rc" \
-  PSQL_HISTORY="$XDG_CACHE_HOME/postgres/history" \
+  PSQL_HISTORY="$XDG_STATE_HOME/postgres/history" \
   PGPASSFILE="$XDG_CONFIG_HOME/postgres/pass" \
   PGSERVICEFILE="$XDG_CONFIG_HOME/postgres/service.conf"
 # We need to create these directories if not exists
