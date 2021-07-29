@@ -41,14 +41,14 @@ Maybe other, but I haven't tested it in other shells.
   + `$HOME/.hex/docs` -> `$XDG_DATA_HOME/hex/docs`
 - Less
   + `$HOME/.lesskey` -> `$XDG_CONFIG_HOME/less/lesskey`
-  + `$HOME/.lesshst` -> `$XDG_DATA_HOME/less/history`
+  + `$HOME/.lesshst` -> `$XDG_STATE_HOME/less/history`
 - Mathematica
   + `$HOME/.Mathematica` -> `$XDG_CONFIG_HOME/Mathematica`
 - Mix †
   + `$HOME/.mix/config.exs` -> `$XDG_CONFIG_HOME/mix/config.exs`
   + `$HOME/.mix/{archives,escripts}` -> `$XDG_DATA_HOME/mix`
 - Node.js
-  + `$HOME/.node_repl_history` -> `$XDG_DATA_HOME/node/repl_history`
+  + `$HOME/.node_repl_history` -> `$XDG_STATE_HOME/node/repl_history`
 - NotMuch
   + `$HOME/.notmuch-config` -> `$XDG_CONFIG_HOME/notmuch/config`
 - NV †
@@ -59,7 +59,7 @@ Maybe other, but I haven't tested it in other shells.
   + `$HOME/.parallel` -> `$XDG_CONFIG_HOME/parallel`
 - PostgreSQL
   + `$HOME/.psqlrc` -> `$XDG_CONFIG_HOME/postgres/rc`
-  + `$HOME/.psql_history` -> `$XDG_CACHE_HOME/postgres/history`
+  + `$HOME/.psql_history` -> `$XDG_STATE_HOME/postgres/history`
   + `$HOME/.pgpass` -> `$XDG_CONFIG_HOME/postgres/pass`
   + `$HOME/.pg_service.conf` -> `$XDG_CONFIG_HOME/postgres/service.conf`
 - Readline
